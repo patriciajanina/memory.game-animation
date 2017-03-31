@@ -1,0 +1,300 @@
+@font-face {
+    font-family: 'cookiesmilkregular';
+    src: url('cookiesmilk-regular-webfont.eot');
+    src: url('cookiesmilk-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cookiesmilk-regular-webfont.woff2') format('woff2'),
+         url('cookiesmilk-regular-webfont.woff') format('woff'),
+         url('cookiesmilk-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+body{
+  background: rgba(241,245,117,1);
+  background: -moz-linear-gradient(top, rgba(241,245,117,1) 0%, rgba(240,146,45,1) 68%, rgba(241,245,117,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(241,245,117,1)), color-stop(68%, rgba(240,146,45,1)), color-stop(100%, rgba(241,245,117,1)));
+  background: -webkit-linear-gradient(top, rgba(241,245,117,1) 0%, rgba(240,146,45,1) 68%, rgba(241,245,117,1) 100%);
+  background: -o-linear-gradient(top, rgba(241,245,117,1) 0%, rgba(240,146,45,1) 68%, rgba(241,245,117,1) 100%);
+  background: -ms-linear-gradient(top, rgba(241,245,117,1) 0%, rgba(240,146,45,1) 68%, rgba(241,245,117,1) 100%);
+  background: linear-gradient(to bottom, rgba(241,245,117,1) 0%, rgba(240,146,45,1) 68%, rgba(241,245,117,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f575', endColorstr='#f1f575', GradientType=0 );
+  font-family: 'cookiesmilkregular';
+}
+.imgD{
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+   animation:spin 4s linear infinite;
+}
+.dounat{
+position: relative
+bottom: 0px;
+margin-left:-400px;
+-webkit-animation-name: fromRigt;
+-webkit-animation-duration: 5s;
+animation-name: fromRigt;
+animation-duration: 4s;
+-webkit-animation-timing-function: ease-in-out;
+animation-delay: 0.1s;
+
+}
+.leftright{
+  position: relative;
+  margin: 0 auto;
+  width: 1350px;
+  height: 550px;
+  position: absolute;
+  top:0;
+  overflow: hidden;
+
+}
+.text{
+  font-family: 'cookiesmilkregular';
+  font-size: 200px;
+  color: #b39210;
+  position: relative;
+  margin-top: -40px;
+}
+.story{
+  color: #fcddf0;
+}
+.text2{
+  color: #fcddf0;
+  font-size: 40px;
+}
+
+.wholeSection{
+  height: 1200px;
+  height: 506px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.sectionBox{
+  width: 900px;
+  height: 506px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 0 auto;
+}
+/*animation section1-opening eyes*/
+.part1{
+  width: 400px;
+  height: 350px;
+}
+.eyes{
+  width: 100px;
+  height: 80px;
+  position: relative;
+  bottom: 40%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin-left: 13%;
+}
+.eyes2{
+  width: 120px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  float: right;
+  bottom:70%;
+  margin-right: 13%;
+}
+.eye1{
+  width: 50px;
+  height: 50px;
+  border-radius: 60%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eye2{
+  width: 50px;
+  height: 50px;
+  border-radius: 60%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*section2-box*/
+.box{
+  background: #734604;
+  border-radius: 20px 20px 20px 20px;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  z-index: 9999;
+  margin-left: 6%;
+  margin-bottom: 20px;
+  /*animation*/
+  -webkit-animation-name: boxmove;
+  -webkit-animation-duration: 1s;
+  animation-name: boxmove;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+}
+/*section3 ciastek*/
+.a3{
+  width:200px;
+  height:200px;
+}
+.eyes3{
+  width: 100px;
+  height: 50px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  float: right;
+  bottom:70%;
+  margin-right:25%;
+}
+.eye3{
+  width: 50px;
+  height: 50px;
+  border-radius: 60%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.smallEye{
+  border: 3px solid #90a2a8;
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 60%;
+  animation-name: smallw;
+  animation-iteration-count: 50;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-out;
+  animation-delay: 0.5s;
+  animation-duration: 1.5s;
+}
+.smallEye2{
+  border: 3px solid #fba6e2;
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 60%;
+  animation-name: smallw;
+  animation-iteration-count: 90;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-out;
+  animation-delay: 1s;
+  animation-duration: 2s;
+}
+.smallEye3{
+  border: 3px solid #c19e67;
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 60%;
+  animation-name: smallw;
+  animation-iteration-count: 90;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-out;
+  animation-delay: 1s;
+  animation-duration: 0.8s;
+}
+.smallEye4{
+  border: 3px solid #c19e67;
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 60%;
+  animation-name: smallw;
+  animation-iteration-count: 90;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  animation-delay: 2s;
+  animation-duration: 1s;
+}
+/*box follow down*/
+@-webkit-keyframes boxmove {
+  0%{ bottom:600px;opacity: 0;}
+  40%{bottom:0;opacity: 0;}
+  70%{bottom:300px;opacity: 1;}
+  70%{bottom:300px;opacity: 1;}
+  100%{bottom:20px;opacity: 1;}
+}
+@-moz-keyframes boxmove  {
+  0%{ bottom:600px;opacity: 0;}
+  40%{bottom:0;opacity: 0;}
+  70%{bottom:300px;opacity: 1;}
+  70%{bottom:300px;opacity: 1;}
+  100%{bottom:20px;opacity: 1;}
+}
+@-o-keyframes boxmove  {
+  0%{ bottom:600px;opacity: 0;}
+  40%{bottom:0;opacity: 0;}
+  70%{bottom:300px;opacity: 1;}
+  70%{bottom:300px;opacity: 1;}
+  100%{bottom:20px;opacity: 1;}
+}
+@keyframes boxmove  {
+  0%{ bottom:600px;opacity: 0;}
+  40%{bottom:0;opacity: 0;}
+  70%{bottom:300px;opacity: 1;}
+  70%{bottom:300px;opacity: 1;}
+  100%{bottom:20px;opacity: 1;}
+}
+/*animation male koleczka w oku*/
+@-webkit-keyframes smallw {
+  0%   { height:1px; }
+  10% {height: 20px; }
+  100%{height: 20px; }
+}
+@-moz-keyframes smallw  {
+  0%   { height:1px; }
+  10% {height: 20px; }
+  100%{height: 20px; }
+}
+@-o-keyframes smallw  {
+  0%   { height:1px; }
+  10% {height: 20px; }
+  100%{height: 20px; }
+}
+@keyframes smallw  {
+  0%   { height:1px; }
+  10% {height: 20px; }
+  100%{height: 20px; }
+}
+/*//paczek*/
+@-moz-keyframes spin {
+   100% { -moz-transform: rotate(360deg);}
+  }
+@-webkit-keyframes spin {
+  100% { -webkit-transform: rotate(360deg);}
+}
+@keyframes spin {
+   100% { -webkit-transform: rotate(360deg); transform:rotate(360deg);}
+  }
+/*//from left to right*/
+@-webkit-keyframes fromRigt {
+  0%   { margin-left:-400px; }
+  100%   { margin-left:1600px;}
+}
+@-moz-keyframes fromRigt  {
+  0%   { margin-left:-400px; }
+  100%   { margin-left:1600px;}
+}
+@-o-keyframes fromRigt  {
+  0%   { margin-left:-400px; }
+  100%   { margin-left:1600px;}
+}
+@keyframes fromRigt  {
+  0%   { margin-left:-400px; }
+  100%   { margin-left:1600px;}
+}
